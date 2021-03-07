@@ -1,0 +1,83 @@
+.game {
+    padding: 0 1rem;
+}
+
+.game-cards {
+    position: relative;
+}
+
+.cards {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-body {
+    padding: 0;
+    margin: 0.5rem;
+    width: 19%;
+    box-shadow: 0 0 1rem rgba(15, 56, 47, 0.9);
+}
+
+.card-body:hover {
+    opacity: 0.7;
+}
+
+.card-body:active {
+    border: 2px solid #23272b;
+}
+
+.info-item {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.info-item span {
+    margin: auto 0;
+}
+
+#moves, #time {
+    padding: 0 1.5rem;
+    font-size: 3.2rem;
+}
+
+.start {
+    position: absolute;
+    top: calc(50% - 9rem);
+    left: calc(50% - 17rem);
+    z-index: 1;
+    min-height: 14rem;
+    max-width: 40rem;
+    max-height: 14rem;
+    width: 45%;
+    height: 25%;
+    font-size: 9rem;
+}
+
+.winR {
+    position: absolute;
+    top: calc(50% - 6rem);
+    left: calc(50% - 37rem);
+}
+
+.winE {
+    position: absolute;
+    top: calc(50% - 5rem);
+    left: calc(50% - 23rem);
+}
+
+.full {
+    width: 2rem;
+    position: absolute;
+    left: 97%;
+    top: 1%;
+    z-index: 1;
+}
+
+.autoplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
