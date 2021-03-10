@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.8rem;
+}
+
+.menu button {
+    margin: 2rem 0;
+    white-space: nowrap;
+}
+
+.font-english {
+    font-size: 2rem;
+}
+
+.font-russian {
+    font-size: 1.5rem;
+}
